@@ -108,27 +108,25 @@
  <!-- HGCalHEAbsorber1, HGCalHEAbsorber2, HGCalHEAirGap1, HGCalHESteelCover, 
       HGCalHESiliconLayer, HGCalHECoolingPlate</Vector> -->
     <Vector name="Thickness" type="numeric" nEntries="6">
-      33.5*mm, 52.7*mm,  12.0*mm,  2.5*mm, [hgcal:ModuleThicknessHE], 6.35*mm
+      33.5*mm, 120.45*mm,  12.0*mm,  2.5*mm, [hgcal:ModuleThicknessHE], 6.35*mm
  <!-- 41.5*mm, 60.7*mm,  4.0*mm,  2.5*mm, [hgcal:ModuleThicknessHE], 6.35*mm -->
     </Vector>
-    <Vector name="Layers" type="numeric" nEntries="14"> 
-      5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5, 5</Vector>
-    <Vector name="LayerThick" type="numeric" nEntries="14">
-      63.05*mm, 63.05*mm, 63.05*mm, 63.05*mm, 82.25*mm, 82.25*mm,
+    <Vector name="Layers" type="numeric" nEntries="9"> 
+      5, 5, 5, 5, 5, 5, 5, 5, 5 </Vector>
+    <Vector name="LayerThick" type="numeric" nEntries="9">
+      150*mm, 150*mm, 150*mm, 150*mm, 150*mm, 150*mm,
+      150*mm, 150*mm, 150*mm </Vector> --> # physical muon test stand
+ <!-- 63.05*mm, 63.05*mm, 63.05*mm, 63.05*mm, 82.25*mm, 82.25*mm,
       82.25*mm, 82.25*mm, 82.25*mm, 82.25*mm, 82.25*mm, 82.25*mm,  
-      82.25*mm, 82.25*mm</Vector>
-    <Vector name="LayerType" type="numeric" nEntries="70">
-      0, 2, 3, 4, 5,  0, 2, 3, 4, 5,  0, 2, 3, 4, 5,
-      0, 2, 3, 4, 5,  1, 2, 3, 4, 5,  1, 2, 3, 4, 5,
+      82.25*mm, 82.25*mm</Vector> --> # original full detector
+    <Vector name="LayerType" type="numeric" nEntries="45">
       1, 2, 3, 4, 5,  1, 2, 3, 4, 5,  1, 2, 3, 4, 5,
       1, 2, 3, 4, 5,  1, 2, 3, 4, 5,  1, 2, 3, 4, 5,
-      1, 2, 3, 4, 5,  1, 2, 3, 4, 5</Vector>
-    <Vector name="LayerSense" type="numeric" nEntries="70">
+      1, 2, 3, 4, 5,  1, 2, 3, 4, 5,  1, 2, 3, 4, 5 </Vector>
+    <Vector name="LayerSense" type="numeric" nEntries="45">
       -1, 0, -1, 1, -2, -1, 0, -1, 1, -2, -1, 0, -1, 1, -2,
       -1, 0, -1, 1, -2, -1, 0, -1, 1, -2, -1, 0, -1, 1, -2,
-      -1, 0, -1, 1, -2, -1, 0, -1, 1, -2, -1, 0, -1, 1, -2,
-      -1, 0, -1, 1, -2, -1, 0, -1, 1, -2, -1, 0, -1, 1, -2,
-      -1, 0, -1, 1, -2, -1, 0, -1, 1, -2</Vector>
+      -1, 0, -1, 1, -2, -1, 0, -1, 1, -2, -1, 0, -1, 1, -2 </Vector>
     <Vector name="TopMaterialNames" type="string" nEntries="7">
       materials:Air, hgcalMaterial:HGC_Cables, hgcalMaterial:HGC_G10-FR4,
       materials:Polystyrene, materials:H_Scintillator, materials:Polystyrene,
